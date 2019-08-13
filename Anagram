@@ -1,0 +1,64 @@
+
+import java.util.Hashtable;
+import java.util.Iterator;
+import java.util.Scanner;
+import java.util.Set;
+
+public class Anagram {
+
+
+	static boolean isAnagram(String a, String b) {
+       
+	Hashtable<Character,Integer>  hb=new Hashtable<>();
+       int index=1;
+       a=a.toLowerCase();
+       b=b.toLowerCase();
+       boolean ret=true;
+       for(int i=0;i<a.length();i++)
+       {
+           if(hb.containsKey(a.charAt(i)))
+           {    
+               int changeindex=Integer.valueOf((int) hb.get(a.charAt(i)))+1;
+               hb.replace(a.charAt(i),changeindex);
+           }
+           else
+           {
+               hb.put(a.charAt(i),index);
+           }
+       }
+       
+       for(int i=0;i<b.length();i++)
+       {
+           if(hb.containsKey(b.charAt(i)))
+           {    
+               int changeindex=Integer.valueOf((int) hb.get(b.charAt(i)))+1;
+               hb.replace(b.charAt(i),changeindex);
+           }
+           else
+           {
+               hb.put(b.charAt(i),index);
+           }
+       }
+      Set<Character> keyvalues=hb.keySet();
+      Iterator<Character> itr=keyvalues.iterator();
+       while(itr.hasNext())
+       {
+           if(((hb.get(itr.next()))%2)!=0)
+           {
+               ret=false;
+               break;
+           }
+       }
+       return ret;
+    }
+    public static void main(String[] args) {
+        
+        Scanner scan = new Scanner(System.in);
+        String a = scan.next();
+        String b = scan.next();
+        scan.close();
+        boolean ret = isAnagram(a, b);
+        System.out.println( (ret) ? "Anagrams" : "Not Anagrams" );
+    }
+}
+    

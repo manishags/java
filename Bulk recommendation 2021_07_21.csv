@@ -1,0 +1,28 @@
+﻿Mentee Name,Mentor Name,Match %,Recommendation preference,Status,Ongoing connections of the mentor,Number of times recommended,||,Mentee's Answer for : Phone,Mentor's Answer for : Phone
+Manisha S_dev,Kenneth Johnson,100,1,Selected,0,2,||,2345,2345
+Manisha Mentor for checking matching,Joey Thompson,100,1,Selected,0,2,||,2345,2345
+Kenneth Johnson,Jane Doe,100,1,Selected,0,3,||,2345,2345
+Joey Thompson,Jane Doe,100,1,Selected,0,3,||,2345,2345
+Jane Doe,Joey Thompson,100,1,Recommendations Sent,0,2,||,2345,2345
+John Smith,Jane Doe,100,1,Selected,0,3,||,2345,2345
+Manisha 20,manisha 8,100,1,Selected,0,2,||,1234,1234
+Manisha 30,manisha 24,100,1,Selected,0,1,||,1234,1234
+Manisha 34,Manisha 20,100,1,Selected,0,2,||,1234,1234
+Manisha 43,Manisha 34,100,1,Selected,0,2,||,1234,1234
+manisha 8,Manisha 43,100,1,Selected,0,1,||,1234,1234
+manisha 24,Manisha 20,100,1,Selected,0,2,||,1234,1234
+M@@n\\isha S)#$,Joey Thompson,10,1,Selected,0,1,||,"",""
+"Manisha ""Test""",Kenneth Johnson,10,1,Selected,0,2,||,"",2345
+HTBYXZickey HWTBYXZMnew,Alex Albuerne Albuerne,10,1,Selected,0,2,||,"",""
+Joey Thompson,Manisha 30,10,1,Selected,0,2,||,"",1234
+Manisha  Test 2,Alex Albuerne Albuerne,10,1,Selected,0,2,||,"",""
+Manisha  New User,Manisha 34,10,1,Selected,0,2,||,"",1234
+Chronus Admin,"Manisha ""Test""",10,1,Selected,0,1,||,"",""
+Manisha  Admin,Devanand Nagarajan,10,1,Selected,0,1,||,"",""
+m;l' m,manisha 8,10,1,Selected,0,2,||,"",1234
+jk jk,m;l' m,10,1,Selected,0,1,||,"",""
+Devanand Nagarajan,John Smith,10,1,Selected,0,1,||,"",2345
+Deva Nagarajan,HTBYXZickey HWTBYXZMnew,10,1,Selected,0,1,||,"",""
+Alex Albuerne Albuerne,Manisha 30,10,1,Selected,0,2,||,"",1234
+Deva Nag,Chronus Admin,10,1,Selected,0,1,||,"",""
+Joined Mentor,jk jk,10,1,Selected,0,1,||,"",""
